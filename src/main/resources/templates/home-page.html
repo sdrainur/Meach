@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div class="sticky-top">
+<!--        <nav class="navbar navbar-expand-lg bg-light">-->
+<!--            <div class="container-fluid">-->
+<!--                <a class="navbar-brand" href="#">Meach</a>-->
+<!--                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"-->
+<!--                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                    <span class="navbar-toggler-icon"></span>-->
+<!--                </button>-->
+<!--                <div class="collapse navbar-collapse" id="navbarNav">-->
+<!--                    <ul class="navbar-nav">-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link active" aria-current="page" href="#">Home</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">Features</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">Pricing</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link disabled">Disabled</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </nav>-->
+        <div th:insert="template :: navbar"></div>
+    </div>
+
+
+
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="../images/image.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Иван Иванов</h5>
+                        <p class="card-text">Специалист по HTML, CSS, JavaScript.</p>
+                        <p class="card-text"><small class="text-muted">Был онлайн 3 мин. назад</small></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">29 лет</li>
+                        <li class="list-group-item">Казань</li>
+                        <li class="list-group-item">Всегда готов помочь вам в обучении!</li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-primary">Отправить заявку на обучение</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="card mb-3">
+                    <img src="../images/preimuchestva_css.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, aliquid. Modi blanditiis eos delectus iusto temporibus quia fugit deleniti perferendis, ad, officiis in? Consequatur asperiores enim in eveniet adipisci natus.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloribus dicta nemo eius neque quod iure, molestiae odit cum error! Reprehenderit minima obcaecati alias, sit repellat eligendi vitae fugit saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempore debitis, distinctio atque natus quia, autem ex ipsum minima aliquid quasi velit illo laudantium accusantium esse, quisquam harum delectus itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cumque maiores vitae voluptates et. Ea dolorem quae repellat voluptate omnis, iure nobis, quos qui similique necessitatibus exercitationem vero quod. Voluptate!</p>
+                        <p class="card-text"><small class="text-muted">Последнее обновление 3 мин. назад</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <br />
+
+
+
+    <div class="mt-auto">
+        <footer id=" footer" class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021 Company, Inc</p>
+        </footer>
+    </div>
+
+
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
